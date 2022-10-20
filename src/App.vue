@@ -1,17 +1,46 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <checkBox :options="options" :columns="columns"/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import checkBox from './components/checkBox.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
-  }
+    checkBox
+  },
+  data(){
+    return{
+        columns:3,
+        options:[
+        {
+            value:1,
+            label: "a2342342343243244234234324324",
+        },
+        {
+            value:2,
+            label: "b",
+        },
+        {
+            value:3,
+            label: "c",
+        },
+        {
+            value:4,
+            label: "d32432442342343",
+        },
+        {
+            value:5,
+            label: "e",
+        },
+        {
+            value:6,
+            label: "f",
+        },]
+    }
+  },
 });
 </script>
 

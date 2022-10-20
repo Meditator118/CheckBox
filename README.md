@@ -1,24 +1,12 @@
-# checkbox
+# 胡志杰笔试项目说明
 
-## Project setup
+### 完成情况
 ```
-npm install
+文档中要求的任务全部完成
 ```
 
-### Compiles and hot-reloads for development
+### 项目启动指令
 ```
+npm i
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
