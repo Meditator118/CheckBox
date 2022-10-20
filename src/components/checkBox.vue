@@ -138,14 +138,14 @@ export default defineComponent ({
     text-align: center;
     line-height: 25px;
 }
-.option{
+.continer .option{
     padding: 5px;
     box-sizing: border-box;
 }
-.option-list{
+.continer .option .option-list{
     background: rgb(155, 155, 155);
 }
-.option-list td{
+.continer .option .option-list td{
     min-width: 80px;
     height: 30px;
     text-align: left;
